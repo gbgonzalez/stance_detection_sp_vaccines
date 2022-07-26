@@ -17,7 +17,7 @@ Once in the root folder of the repository it may be executed using the following
 ### Hydrated tweets
 For hydrated corpus tweets:
 ```bash
-$ python app\run.py -o train -max_len 128 -batch_size 16 -lr 3e-5 -epochs 4 -d 0.3 -ae 1e-8 
+$ python app\run.py -o hydrated_tweets
 ```
 ### Train model
 To train the model we can select the optimal parameters:
@@ -32,7 +32,7 @@ To train the model we can select the optimal parameters:
 
 For example:
 ```bash
-$ python app\run.py -batch_size 32 -lr 5e-5 -epochs 3 -max_len 128 -sent pessimism
+$ python app\run.py -o train -max_len 128 -batch_size 16 -lr 3e-5 -epochs 4 -d 0.3 -ae 1e-8 
 ```
 
 ### Test model
