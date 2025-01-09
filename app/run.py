@@ -49,9 +49,9 @@ if __name__ == "__main__":
         dropout = float(args.dropout)
         epochs = int(args.epochs)
 
-        name_model = "bertin-project/bertin-roberta-base-spanish"
+        name_model = "bbert-base-multilingual-uncased"
 
-        set_seed(2021)
+        set_seed(42)
         train, test = load_dataset(route_train, route_test)
 
         X_train = [t[0] for t in train]

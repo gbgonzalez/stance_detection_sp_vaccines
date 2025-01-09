@@ -55,9 +55,9 @@ $ python app\run.py -h
 
 ## Results
 
-The BERTIN+BiLSTM achieved the following results:
+The BERT-Multi+BiLSTM achieved the following results:
 
-Model | AVG F1-Score | F1 - Against | F1 - None | F1 - In favour
-------------- |----------|--------------|-----------| ------------- 
-BERTIN+BiLSTM | 0.87 | 0.88         | 0.92      | 0.80
+Model | AVG F1-Score | F1 - Against | F1 - None | F1 - In favour | MCC | AUC
+------------- |--------------|--------------|-----------| ------------- | ------------- | -------------
+BERT-Multi+BiLSTM | 0.86         | 0.87         | 0.92      | 0.79 | 0.79 | 0.96
 
