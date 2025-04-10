@@ -61,3 +61,6 @@ Model | AVG F1-Score | F1 - Against | F1 - None | F1 - In favour | MCC | AUC
 ------------- |--------------|--------------|-----------| ------------- | ------------- | -------------
 BERT-Multi+BiLSTM | 0.86         | 0.87         | 0.92      | 0.79 | 0.79 | 0.96
 
+## Acknowledgements
+
+This study was supported by MCIN/AEI/ 10.13039/501100011033 under the scope of the CURMIS4th project (Grant PID2020-113673RB-I00), the Consellería de Educación, Universidades e Formación Profesional (Xunta de Galicia) under the scope of the strategic funding of ED431C2018/55-GRC Competitive Reference Group, the “Centro singular de investigación de Galicia” (accreditation 2019–2022), and the Portuguese Foundation for Science and Technology (FCT) under the scope of the strategic funding of UIDB/04469/2020 unit, and by LABBELS – Associate Laboratory in Biotechnology, Bioengineering and Microelectromechanical Systems, LA/P/0029/2020. SING group thanks CITI (Centro de Investigación, Transferencia e Innovación) from the University of Vigo for hosting its IT infrastructure. Funding for open access charge: Universidade de Vigo/CISUG.
